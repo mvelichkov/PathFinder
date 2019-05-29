@@ -1,0 +1,27 @@
+100, 0, 0, 1, transit;
+130, 3, 0, 1, room;
+134, 3, 4, 1, room;
+200, 0, 0, 2, transit;
+202, 0, 2, 2, room;
+232, 3, 2, 2, room;
+204, 0, 4, 2, room;
+234, 3, 4, 2, room;
+300, 0, 0, 3, room;
+330, 3, 0, 3, room;
+304, 0, 4, 3, transit;
+334, 3, 4, 3, room;
+
+100, 130, walk, 4, yes;
+100, 134, walk, 5, yes;
+130, 134, walk, 3, yes;
+100, 200, lift, 1, yes;
+200, 202, walk, 3, yes;
+202, 232, walk, 4, yes;
+202, 204, walk, 3, yes;
+232, 234, walk, 3, yes;
+204, 234, walk, 4, yes;
+204, 304, climb, 1, yes;
+304, 334, walk, 4, yes;
+304, 330, walk, 7, yes;
+334, 300, walk, 8, yes;
+300, 330, walk, 3, yes;
